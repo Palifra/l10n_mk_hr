@@ -1,0 +1,1018 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr
+#
+# Translators:
+# ESKON-INZENERING DOOEL Strumica <info@eskon.com.mk>, 2025
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-16 14:00+0000\n"
+"PO-Revision-Date: 2025-11-16 14:00+0000\n"
+"Last-Translator: ESKON-INZENERING DOOEL Strumica <info@eskon.com.mk>\n"
+"Language-Team: Macedonian <mk@li.org>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"X-Generator: Odoo\n"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__name
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__name
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__name
+msgid "Employee Name"
+msgstr "Име на вработен"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_employee
+#: model:ir.model.fields,field_description:hr.field_hr_employee__employee_id
+#: model_terms:ir.ui.view,arch_db:hr.res_partner_view_form
+msgid "Employee"
+msgstr "Вработен"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_view_employee_list_my
+#: model:ir.ui.menu,name:hr.menu_hr_employee_payroll
+#: model:ir.ui.menu,name:hr.menu_open_view_employee_list_my
+#: model:res.groups,name:hr.group_hr_user
+msgid "Employees"
+msgstr "Вработени"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_department
+#: model:ir.model.fields,field_description:hr.field_hr_department__name
+msgid "Department"
+msgstr "Оддел"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.open_module_tree_department
+#: model:ir.ui.menu,name:hr.menu_hr_department_tree
+msgid "Departments"
+msgstr "Оддели"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_job
+#: model:ir.model.fields,field_description:hr.field_hr_employee__job_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__job_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__job_id
+msgid "Job Position"
+msgstr "Работно место"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action_hr_job
+#: model:ir.ui.menu,name:hr.menu_hr_job_position
+msgid "Job Positions"
+msgstr "Работни места"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__job_title
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__job_title
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__job_title
+msgid "Job Title"
+msgstr "Наслов на работно место"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_contract_type
+msgid "Contract Type"
+msgstr "Тип на договор"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__contract_id
+msgid "Current Contract"
+msgstr "Тековен договор"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__manager_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee__parent_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__parent_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__parent_id
+msgid "Manager"
+msgstr "Менаџер"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__coach_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__coach_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__coach_id
+msgid "Coach"
+msgstr "Тренер"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__work_email
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__work_email
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_email
+msgid "Work Email"
+msgstr "Работен е-маил"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__work_phone
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__work_phone
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_phone
+msgid "Work Phone"
+msgstr "Работен телефон"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__mobile_phone
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__mobile_phone
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__mobile_phone
+msgid "Work Mobile"
+msgstr "Работен мобилен"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_email
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Private Email"
+msgstr "Приватен е-маил"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__phone
+msgid "Private Phone"
+msgstr "Приватен телефон"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_street
+#: model:ir.model.fields,field_description:hr.field_res_users__private_street
+msgid "Private Street"
+msgstr "Приватна адреса"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_city
+#: model:ir.model.fields,field_description:hr.field_res_users__private_city
+msgid "Private City"
+msgstr "Приватен град"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_zip
+#: model:ir.model.fields,field_description:hr.field_res_users__private_zip
+msgid "Private Zip"
+msgstr "Приватен поштенски код"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_state_id
+#: model:ir.model.fields,field_description:hr.field_res_users__private_state_id
+msgid "Private State"
+msgstr "Приватна држава"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__private_country_id
+#: model:ir.model.fields,field_description:hr.field_res_users__private_country_id
+msgid "Private Country"
+msgstr "Приватна земја"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Private Information"
+msgstr "Приватни информации"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
+msgid "Date of Birth"
+msgstr "Датум на раѓање"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__place_of_birth
+msgid "Place of Birth"
+msgstr "Место на раѓање"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
+msgid "Country of Birth"
+msgstr "Земја на раѓање"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__gender
+msgid "Gender"
+msgstr "Пол"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__male
+msgid "Male"
+msgstr "Машки"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
+msgid "Female"
+msgstr "Женски"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__other
+msgid "Other"
+msgstr "Друго"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__marital
+msgid "Marital Status"
+msgstr "Брачен статус"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__single
+msgid "Single"
+msgstr "Неженет/Немажена"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__married
+msgid "Married"
+msgstr "Женет/Мажена"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__cohabitant
+msgid "Legal Cohabitant"
+msgstr "Вонбрачна заедница"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
+msgid "Widower"
+msgstr "Вдовец/Вдовица"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__divorced
+msgid "Divorced"
+msgstr "Разведен/а"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_complete_name
+msgid "Spouse Complete Name"
+msgstr "Полно име на сопруг/а"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
+msgid "Spouse Birthdate"
+msgstr "Датум на раѓање на сопруг/а"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__children
+msgid "Number of Dependent Children"
+msgstr "Број на издржувани деца"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_contact
+msgid "Contact Name"
+msgstr "Контакт лице"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_phone
+msgid "Contact Phone"
+msgstr "Контакт телефон"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Emergency Contact"
+msgstr "Итен контакт"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
+msgid "Certificate Level"
+msgstr "Ниво на образование"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
+msgid "Graduate"
+msgstr "Дипломиран"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__bachelor
+msgid "Bachelor"
+msgstr "Дипломиран (Bachelor)"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
+msgid "Master"
+msgstr "Магистер"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__doctor
+msgid "Doctor"
+msgstr "Доктор"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__other
+msgid "Other"
+msgstr "Друго"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__study_field
+msgid "Field of Study"
+msgstr "Област на студирање"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__study_school
+msgid "School"
+msgstr "Училиште"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__country_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__country_id
+msgid "Nationality (Country)"
+msgstr "Националност (Земја)"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
+msgid "Identification No"
+msgstr "Број на лична карта"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
+msgid "Passport No"
+msgstr "Број на пасош"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__permit_no
+msgid "Work Permit No"
+msgstr "Број на работна дозвола"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
+msgid "Visa No"
+msgstr "Број на виза"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
+msgid "Visa Expiration Date"
+msgstr "Датум на истекување на виза"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_expiration_date
+msgid "Work Permit Expiration Date"
+msgstr "Датум на истекување на работна дозвола"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_scheduled_activity
+msgid "Work Permit Scheduled Activity"
+msgstr "Закажана активност за работна дозвола"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_work_location
+#: model:ir.model.fields,field_description:hr.field_hr_employee__work_location_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__work_location_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_location_id
+msgid "Work Location"
+msgstr "Локација на работа"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action_work_location
+#: model:ir.ui.menu,name:hr.menu_work_location
+msgid "Work Locations"
+msgstr "Локации на работа"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__active
+#: model:ir.model.fields,field_description:hr.field_hr_employee__active
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__active
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__active
+#: model:ir.model.fields,field_description:hr.field_hr_job__active
+#: model:ir.model.fields,field_description:hr.field_hr_work_location__active
+msgid "Active"
+msgstr "Активен"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Archived"
+msgstr "Архивиран"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__notes
+msgid "Notes"
+msgstr "Забелешки"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__category_ids
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__category_ids
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__category_ids
+msgid "Tags"
+msgstr "Ознаки"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_employee_category
+#: model:ir.actions.act_window,name:hr.open_view_categ_form
+#: model:ir.ui.menu,name:hr.menu_view_employee_category_form
+msgid "Employee Tags"
+msgstr "Ознаки на вработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__company_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__company_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__company_id
+msgid "Company"
+msgstr "Компанија"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__resource_calendar_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_calendar_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_calendar_id
+msgid "Working Hours"
+msgstr "Работно време"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__tz
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__tz
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__tz
+msgid "Timezone"
+msgstr "Временска зона"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__bank_account_id
+msgid "Bank Account Number"
+msgstr "Број на банкарска сметка"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
+msgid "Home-Work Distance"
+msgstr "Растојание дом-работа"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "HR Settings"
+msgstr "HR Поставки"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Work Information"
+msgstr "Работни информации"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Organization"
+msgstr "Организација"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Citizenship"
+msgstr "Државјанство"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Education"
+msgstr "Образование"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Dependant"
+msgstr "Издржувани лица"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Contact Information"
+msgstr "Контакт информации"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__create_date
+msgid "Created on"
+msgstr "Креиран на"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__write_date
+msgid "Last Updated on"
+msgstr "Последно ажуриран на"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__create_uid
+msgid "Created by"
+msgstr "Креиран од"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__write_uid
+msgid "Last Updated by"
+msgstr "Последно ажуриран од"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__user_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__user_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__user_id
+msgid "Related User"
+msgstr "Поврзан корисник"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__address_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__address_id
+msgid "Work Address"
+msgstr "Работна адреса"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__department_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__department_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__department_id
+msgid "Department"
+msgstr "Оддел"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_root
+msgid "Employees"
+msgstr "Вработени"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_human_resources_configuration
+msgid "Configuration"
+msgstr "Конфигурација"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_reporting
+msgid "Reporting"
+msgstr "Извештаи"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.res_config_settings_action_hr
+#: model:ir.ui.menu,name:hr.menu_human_resources_settings
+msgid "Settings"
+msgstr "Поставки"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__badge_ids
+msgid "Badges"
+msgstr "Беџови"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__hr_presence_state
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__hr_presence_state
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_presence_state
+msgid "Presence Status"
+msgstr "Статус на присуство"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_presence_state__present
+msgid "Present"
+msgstr "Присутен"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_presence_state__absent
+msgid "Absent"
+msgstr "Отсутен"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_presence_state__to_define
+msgid "To Define"
+msgstr "За дефинирање"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__last_activity
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity
+msgid "Last Activity"
+msgstr "Последна активност"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity_time
+#: model:ir.model.fields,field_description:hr.field_hr_employee_base__last_activity_time
+#: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity_time
+msgid "Last Activity Time"
+msgstr "Време на последна активност"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__expected_employees
+msgid "Expected New Employees"
+msgstr "Очекувани нови вработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__no_of_employee
+msgid "Current Number of Employees"
+msgstr "Тековен број на вработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__no_of_recruitment
+msgid "Expected in Recruitment"
+msgstr "Очекувани во регрутација"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__description
+msgid "Job Description"
+msgstr "Опис на работно место"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__requirements
+msgid "Requirements"
+msgstr "Барања"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__total_employee
+msgid "Total Employee"
+msgstr "Вкупно вработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
+msgid "Parent Department"
+msgstr "Надреден оддел"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__child_ids
+msgid "Child Departments"
+msgstr "Подредени оддели"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
+msgid "Members"
+msgstr "Членови"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr
+#: model:ir.model.fields,help:hr.field_hr_employee__active
+msgid "If the active field is set to false, it will allow you to hide the employee without removing it."
+msgstr "Ако активното поле е поставено на неточно, ќе ви овозможи да го скриете вработениот без да го отстраните."
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "Search Employee"
+msgstr "Пребарај вработен"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_department_filter
+msgid "Search Department"
+msgstr "Пребарај оддел"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_job_filter
+msgid "Search Job Position"
+msgstr "Пребарај работно место"
+
+#. module: hr
+#: model:ir.actions.act_window,help:hr.open_view_employee_list_my
+msgid "Add a new employee"
+msgstr "Додај нов вработен"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Save"
+msgstr "Зачувај"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Discard"
+msgstr "Откажи"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Edit"
+msgstr "Уреди"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__image_1920
+msgid "Image"
+msgstr "Слика"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1920
+msgid "Avatar"
+msgstr "Аватар"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_reason_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee__departure_reason_id
+msgid "Departure Reason"
+msgstr "Причина за заминување"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__departure_date
+msgid "Departure Date"
+msgstr "Датум на заминување"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_departure_reason
+msgid "Departure Reason"
+msgstr "Причина за заминување"
+
+#. module: hr
+#: model:hr.departure.reason,name:hr.departure_fired
+msgid "Fired"
+msgstr "Отпуштен"
+
+#. module: hr
+#: model:hr.departure.reason,name:hr.departure_resigned
+msgid "Resigned"
+msgstr "Поднесе оставка"
+
+#. module: hr
+#: model:hr.departure.reason,name:hr.departure_retired
+msgid "Retired"
+msgstr "Пензиониран"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__color
+msgid "Color Index"
+msgstr "Индекс на боја"
+
+#. module: hr
+#: model:res.groups,name:hr.group_hr_user
+msgid "Officer"
+msgstr "Службеник"
+
+#. module: hr
+#: model:res.groups,name:hr.group_hr_manager
+msgid "Administrator"
+msgstr "Администратор"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
+msgid "Badge ID"
+msgstr "ID на беџ"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__pin
+msgid "PIN"
+msgstr "ПИН"
+
+#. module: hr
+#: model:ir.model.fields,help:hr.field_hr_employee__pin
+msgid "PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if enabled in Configuration) and to change the cashier in the Point of Sale application."
+msgstr "ПИН кој се користи за пријава/одјава во киоск режим на апликацијата за присуство (ако е овозможено во конфигурација) и за промена на касиер во апликацијата за продажба."
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_employee_view_activity
+msgid "Activity"
+msgstr "Активност"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
+msgid "Kanban"
+msgstr "Канбан"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
+msgid "List"
+msgstr "Листа"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Form"
+msgstr "Формулар"
+
+#. module: hr
+#: model:ir.actions.server,name:hr.action_hr_employee_send_mail
+msgid "Send Email"
+msgstr "Испрати е-маил"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_plan__plan_activity_type_ids
+msgid "Activities"
+msgstr "Активности"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__child_ids
+msgid "Direct Subordinates"
+msgstr "Директно подредени"
+
+#. module: hr
+#: model:ir.model.fields,help:hr.field_hr_employee__child_ids
+msgid "Direct Subordinates Count"
+msgstr "Број на директно подредени"
+
+#. module: hr
+#: model:ir.ui.menu,name:hr.menu_hr_employee_tree
+msgid "Employees"
+msgstr "Вработени"
+
+#. module: hr
+#: model:hr.contract.type,name:hr.contract_type_cdd
+msgid "CDD"
+msgstr "Договор на определено време"
+
+#. module: hr
+#: model:hr.contract.type,name:hr.contract_type_cdi
+msgid "CDI"
+msgstr "Договор на неопределено време"
+
+#. module: hr
+#: model:hr.contract.type,name:hr.contract_type_pfi
+msgid "PFI"
+msgstr "Практикант"
+
+#. module: hr
+#: model:hr.contract.type,name:hr.contract_type_internship
+msgid "Internship"
+msgstr "Пракса"
+
+#. module: hr
+#: model:hr.contract.type,name:hr.contract_type_apprenticeship
+msgid "Apprenticeship"
+msgstr "Чиракување"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Status"
+msgstr "Статус"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__employee_type
+msgid "Employee Type"
+msgstr "Тип на вработен"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__employee
+msgid "Employee"
+msgstr "Вработен"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__student
+msgid "Student"
+msgstr "Студент"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__trainee
+msgid "Trainee"
+msgstr "Практикант"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__contractor
+msgid "Contractor"
+msgstr "Изведувач"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__freelance
+msgid "Freelancer"
+msgstr "Фриленсер"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Resume"
+msgstr "CV/Биографија"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_resume_line
+msgid "Resume Line"
+msgstr "Линија на CV"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_resume_line_type
+msgid "Resume Line Type"
+msgstr "Тип на линија на CV"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__resume_line_ids
+msgid "Resume Lines"
+msgstr "Линии на CV"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_employee_skill
+msgid "Employee Skill"
+msgstr "Вештина на вработен"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__employee_skill_ids
+msgid "Skills"
+msgstr "Вештини"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_skill
+msgid "Skill"
+msgstr "Вештина"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_skill_type
+msgid "Skill Type"
+msgstr "Тип на вештина"
+
+#. module: hr
+#: model:ir.model,name:hr.model_hr_skill_level
+msgid "Skill Level"
+msgstr "Ниво на вештина"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee_skill__skill_level_id
+msgid "Skill Level"
+msgstr "Ниво на вештина"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee_skill__skill_type_id
+msgid "Skill Type"
+msgstr "Тип на вештина"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Application Information"
+msgstr "Информации за апликација"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_res_users__employee_ids
+msgid "Related Employees"
+msgstr "Поврзани вработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_res_users__employee_id
+msgid "Related Employee"
+msgstr "Поврзан вработен"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "Group By"
+msgstr "Групирај по"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "My Team"
+msgstr "Мој тим"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "My Department"
+msgstr "Мој оддел"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "Newly Hired"
+msgstr "Новововработени"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__subordinate_ids
+msgid "Subordinates"
+msgstr "Подредени"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
+msgid "Employee Directory"
+msgstr "Директориум на вработени"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.action_hr_employee_public
+msgid "Employees"
+msgstr "Вработени"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
+msgid "Employee Update"
+msgstr "Ажурирање на вработен"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
+msgid "Manage Organizations"
+msgstr "Управувај со организации"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_job__state
+msgid "Status"
+msgstr "Статус"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_job__state__recruit
+msgid "Recruitment in Progress"
+msgstr "Регрутација во тек"
+
+#. module: hr
+#: model:ir.model.fields.selection,name:hr.selection__hr_job__state__open
+msgid "Not Recruiting"
+msgstr "Без регрутација"
+
+#. module: hr
+#: model:ir.actions.server,name:hr.action_set_employee_not_recruiting
+msgid "Set to Not Recruiting"
+msgstr "Постави на без регрутација"
+
+#. module: hr
+#: model:ir.actions.server,name:hr.action_set_employee_recruiting
+msgid "Set to Recruiting"
+msgstr "Постави на регрутација"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
+msgid "Start Recruitment"
+msgstr "Започни регрутација"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
+msgid "Stop Recruitment"
+msgstr "Запри регрутација"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_department__note
+msgid "Note"
+msgstr "Забелешка"
+
+#. module: hr
+#: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
+msgid ""
+"Create a new department"
+msgstr ""
+"Креирај нов оддел"
+
+#. module: hr
+#: model_terms:ir.actions.act_window,help:hr.action_hr_job
+msgid ""
+"Create a new job position"
+msgstr ""
+"Креирај ново работно место"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__employee_count
+msgid "Direct Subordinates"
+msgstr "Директно подредени"
+
+#. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form_smartbutton_inherited
+msgid "Contracts"
+msgstr "Договори"
+
+#. module: hr
+#: model:ir.actions.act_window,name:hr.hr_contract_history_action
+msgid "Contract History"
+msgstr "Историја на договори"
+
+#. module: hr
+#: model:ir.model.fields,field_description:hr.field_hr_employee__first_contract_date
+msgid "First Contract Date"
+msgstr "Датум на прв договор"
