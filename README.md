@@ -201,7 +201,7 @@ For issues and feature requests, please create an issue on GitHub.
 
 - [l10n_mk](https://github.com/Palifra/l10n_mk) - Macedonian Chart of Accounts
 - [l10n_mk_delivery_note](https://github.com/Palifra/l10n_mk_delivery_note) - Macedonian Delivery Notes
-- [l10n_mk_reverse](https://github.com/Palifra/l10n_mk_reverse) - Equipment Loan Management
+- [eskon_reverse](https://github.com/Palifra/eskon_reverse) - Equipment Loan Management
 - [l10n_mk_project](https://github.com/Palifra/l10n_mk_project) - Macedonian Project Management
 - [l10n_mk_fleet](https://github.com/Palifra/l10n_mk_fleet) - Macedonian Fleet Management
 - [l10n_mk_inventory](https://github.com/Palifra/l10n_mk_inventory) - Macedonian Inventory
